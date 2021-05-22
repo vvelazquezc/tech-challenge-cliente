@@ -1,0 +1,13 @@
+.btn-custom {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  background-color: white;
+  transition: border 0.3s ease-out;
+  font-size: 14px;
+  &:hover {
+    border: 1px solid #aeb6bf;
+    box-shadow: rgb(149 157 165 / 20%) 0px 4px 12px;
+  }
+}

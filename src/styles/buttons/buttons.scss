@@ -1,0 +1,26 @@
+.btn-upload {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #212f3c;
+  transition: border 0.3s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    border: 1px solid #aeb6bf;
+    box-shadow: rgb(149 157 165 / 20%) 0px 4px 12px;
+  }
+  &-plus {
+    color: white;
+    text-decoration: none;
+  }
+  @media (min-width: 750px) {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}

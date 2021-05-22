@@ -1,0 +1,24 @@
+@import './utils/index.scss';
+@import './buttons/buttons.scss';
+@import './inputs/inputs.scss';
+* {
+  margin: 0px;
+}
+
+body {
+  background: #f8f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.text-h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #212f3c;
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}

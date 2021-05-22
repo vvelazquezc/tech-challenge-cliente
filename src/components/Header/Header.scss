@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  &-section {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-functionalities {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-links {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #212f3c;
+  }
+  &-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &-logo {
+    width: 40px;
+    float: left;
+  }
+}
